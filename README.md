@@ -1,5 +1,8 @@
 # lethalo-worksite-robbery
 
+1. Simply drag robbery_worksite folder in your resources
+2. Start or ensure it in your server.cfg
+
 ## For QBCore Framework
 
 ### Details :
