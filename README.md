@@ -1,5 +1,7 @@
 # lethalo-worksite-robbery
 
+# For QBCore
+
 ## Details :
 ```
 -> This script allow players to go on worksite (You can add more) and steal furniture such as drill or saw
