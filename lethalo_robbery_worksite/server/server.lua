@@ -8,13 +8,13 @@ AddEventHandler('robbery_worksite:server:addItem', function(item)
         if exports['qs-inventory']:AddItem(source, item, 1) then
             TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items[item], "add", 1)
         else
-            TriggerClientEvent('QBCore:Notify', source, "Vous êtes encombrer", "error") -- Too Heavy
+            TriggerClientEvent('QBCore:Notify', source, Config.Heavy, "error") -- Too Heavy
         end
     elseif Config.Inventory == 'qb-inventory' then
         if exports['qb-inventory']:AddItem(source, item, 1) then
             TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items[item], "add", 1)
         else
-            TriggerClientEvent('QBCore:Notify', source, "Vous êtes encombrer", "error") -- Too Heavy
+            TriggerClientEvent('QBCore:Notify', source, Config.Heavy, "error") -- Too Heavy
         end
     end
 end)
