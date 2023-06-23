@@ -1,6 +1,6 @@
 # lethalo-worksite-robbery
 
-# For QBCore
+# For QBCore Framework
 
 ## Details :
 ```
