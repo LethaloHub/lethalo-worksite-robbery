@@ -7,7 +7,7 @@
 
 ### Details :
 ```
-- This script allow players to go on worksite (You can add more) and steal furniture such as drill or saw
+- This script allow players to go on worksite (You can add more) and steal tools such as drill or saw
 - You can configure which items can be spawn and where.
 - Police is alerted (using ps-dispatch but you can use your own export/trigger)
 ```
