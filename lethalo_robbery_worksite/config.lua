@@ -68,58 +68,57 @@ Config.MarkerType = 20 -- See https://docs.fivem.net/docs/game-references/marker
 
 Config.Items = { -- Model to load must match with Config.Spawns "item"
 
-    scie = 'prop_tool_consaw', -- scie = saw
+    saw = 'prop_tool_consaw', -- saw = saw
     drill = 'prop_tool_drill',
-    tuyau = 'prop_byard_pipes01',
-    vis = 'prop_tool_box_04',
+    -- Add more here
 
 }
 
 Config.Spawns = {
     [1] = {
-        {item = 'scie', position = vector3(59.69, -369.79, 40.61)},
-        {item = 'scie', position = vector3(86.05, -447.97, 38.24)},
+        {item = 'saw', position = vector3(59.69, -369.79, 40.61)},
+        {item = 'saw', position = vector3(86.05, -447.97, 38.24)},
 
-        {item = 'vis', position = vector3(45.39, -396.74, 38.90)},
-        {item = 'vis', position = vector3(38.76, -425.47, 38.90)},
-        {item = 'vis', position = vector3(16.31, -430.73, 38.85)},
+        {item = 'saw', position = vector3(45.39, -396.74, 38.90)},
+        {item = 'saw', position = vector3(38.76, -425.47, 38.90)},
+        {item = 'drill', position = vector3(16.31, -430.73, 38.85)},
 
         {item = 'drill', position = vector3(91.36, -411.45, 37.66)},
 
-        {item = 'tuyau', position = vector3(77.48, -435.84, 36.53)},
+        {item = 'drill', position = vector3(77.48, -435.84, 36.53)},
     },
     [2] = {
-        {item = 'scie', position = vector3(-180.3, -1088.29, 17.69)},
-        {item = 'scie', position = vector3(-158.25, -1065.68, 17.69)},
+        {item = 'saw', position = vector3(-180.3, -1088.29, 17.69)},
+        {item = 'saw', position = vector3(-158.25, -1065.68, 17.69)},
 
-        {item = 'vis', position = vector3(-144.83, -1099.67, 17.69)},
-        {item = 'vis', position = vector3(-174.76, -1108.22, 17.69)},
-        {item = 'vis', position = vector3(-165.01, -1097.26, 35.14)},
+        {item = 'saw', position = vector3(-144.83, -1099.67, 17.69)},
+        {item = 'saw', position = vector3(-174.76, -1108.22, 17.69)},
+        {item = 'drill', position = vector3(-165.01, -1097.26, 35.14)},
 
         {item = 'drill', position = vector3(-165.73, -1082.92, 29.14)},
         {item = 'drill', position = vector3(-140.74, -1074.24, 29.14)},
         
 
-        {item = 'tuyau', position = vector3(-144.29, -1101.9, 29.14)},
-        {item = 'tuyau', position = vector3(-159.27, -1069.45, 35.14)},
+        {item = 'drill', position = vector3(-144.29, -1101.9, 29.14)},
+        {item = 'drill', position = vector3(-159.27, -1069.45, 35.14)},
 
     },
     [3] = {
-        {item = 'scie', position = vector3(-456.86, -1024.03, 22.62)},
-        {item = 'scie', position = vector3(-457.32, -900.3, 37.68)},
+        {item = 'saw', position = vector3(-456.86, -1024.03, 22.62)},
+        {item = 'saw', position = vector3(-457.32, -900.3, 37.68)},
 
-        {item = 'vis', position = vector3(-482.36, -990.28, 22.55)},
-        {item = 'vis', position = vector3(-444.83, -929.51, 28.39)},
-        {item = 'vis', position = vector3(-454.72, -931.17, 37.68)},
-        {item = 'vis', position = vector3(-463.34, -1048.72, 39.81)},
-        {item = 'vis', position = vector3(-469.95, -1048.96, 22.55)},
+        {item = 'drill', position = vector3(-482.36, -990.28, 22.55)},
+        {item = 'drill', position = vector3(-444.83, -929.51, 28.39)},
+        {item = 'drill', position = vector3(-454.72, -931.17, 37.68)},
+        {item = 'drill', position = vector3(-463.34, -1048.72, 39.81)},
+        {item = 'drill', position = vector3(-469.95, -1048.96, 22.55)},
 
         {item = 'drill', position = vector3(-442.55, -966.33, 24.9)},
         {item = 'drill', position = vector3(-469.14, -956.88, 37.68)},
 
-        {item = 'tuyau', position = vector3(-487.17, -1014.89, 22.55)},
-        {item = 'tuyau', position = vector3(-491.17, -1016.08, 39.81)},
-        {item = 'tuyau', position = vector3(-455.52, -1008.13, 22.86)},
+        {item = 'saw', position = vector3(-487.17, -1014.89, 22.55)},
+        {item = 'saw', position = vector3(-491.17, -1016.08, 39.81)},
+        {item = 'saw', position = vector3(-455.52, -1008.13, 22.86)},
     },
 }
 
