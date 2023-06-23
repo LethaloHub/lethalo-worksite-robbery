@@ -1,6 +1,6 @@
 # lethalo-worksite-robbery
 
-1. Simply drag robbery_worksite folder in your resources
+1. Simply drag and drop robbery_worksite folder in your resources
 2. Start or ensure it in your server.cfg
 3. Make sure to have both drill and saw items in qbcore/shared/items.lua
 
